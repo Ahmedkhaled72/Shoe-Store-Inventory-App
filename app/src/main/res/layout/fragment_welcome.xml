@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/text_welcome1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_welcome"
+        android:text="@string/welcomeText"
+        android:textAlignment="center"
+        android:textSize="@dimen/welcome_size" />
+
+    <TextView
+        android:id="@+id/text_wlecome2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeText2"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="@dimen/welcomeText2" />
+
+    <Button
+        android:id="@+id/welcome_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/buttonMargin"
+        android:text="@string/instructionButton"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+</LinearLayout>
+</layout>

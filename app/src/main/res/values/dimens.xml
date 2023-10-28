@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="emial_size">24sp</dimen>
+    <dimen name="high_margin">60dp</dimen>
+    <dimen name="margin_welcome">150dp</dimen>
+    <dimen name="high1_margin">16dp</dimen>
+    <dimen name="welcome_size">30sp</dimen>
+    <dimen name="welcomeText2">24sp</dimen>
+    <dimen name="buttonMargin">120dp</dimen>
+    <dimen name="emailMargin">200dp</dimen>
+    <dimen name="instructionSize">24sp</dimen>
+    <dimen name="instructionMargin">120dp</dimen>
+    <dimen name="shoesizetext">24sp</dimen>
+    <dimen name="cancelbuttoon">16dp</dimen>
+
+</resources>
